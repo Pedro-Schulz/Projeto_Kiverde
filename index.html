@@ -1,0 +1,341 @@
+<html>
+<head>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,user-scalable=0" />
+    
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Questrial&display=swap" rel="stylesheet">
+    
+<script type="text/javascript">
+    document.addEventListener("DOMContentLoaded", function() {
+    window.onload = function (){
+        document.querySelector(".menuMobile").addEventListener("click", function(){
+            if(document.querySelector(".menu nav ul").style.display == 'flex') {
+                document.querySelector(".menu nav ul").style.display = 'none';
+            } else {
+                document.querySelector(".menu nav ul").style.display = 'flex';
+            }
+        });
+    };    
+});
+    </script>
+
+<title>Site FLEXBOX</title> 
+
+</head>
+
+<body>
+
+    <header>
+        <div class="container" >
+            <div class="logo">
+                
+                <a href=""><img class="img" src="assets/Images/logo1.png" /></a>
+            
+            </div>
+            <div class="menu">
+                <nav>
+                    <div class="menuMobile">
+                        <div class="mm_line"></div>
+                        <div class="mm_line"></div>
+                        <div class="mm_line"></div>
+                    </div>
+                    <ul>
+                        <li class="active"><a href="">HOME</a></li>
+                        <li><a href="" class="active_text">Home</a></li>
+                        <li><a href="" class="active_text">Home</a></li>
+                        <li><a href="" class="active_text">Home</a></li>
+                        <li><a href="" class="active_text">Home</a></li>
+                        <li><a href="" class="active_text">Home</a></li>
+                    </ul>
+                </nav>
+            </div>
+           
+        </div>
+    </header>
+
+    <section id="banner">
+        <div class="container column">
+            <div class="banner_headline">
+                <h1>A vida começa no comer bem</h1>
+                <h2>Começe hoje mesmo e mude sua forma de se alimentar</h2>
+            </div>
+            <div class="banner_options">
+                <div class="banner1">
+                    <div class="banner_tittle">Como começar</div>
+                    <div class="banner_desc">Inclua mais alimentos naturais e evite os ultraprocessados.
+Comece com pequenas mudanças e mantenha constância.</div>
+                    <a href="">Saiba mais</a>
+                </div>
+                <div class="banner2">
+                    <div class="banner_tittle">Resultados</div>
+                    <div class="banner_desc">Uma boa alimentação melhora a disposição, o humor e fortalece o sistema imunológico.
+Com o tempo, ajuda a prevenir doenças e promove bem-estar geral.</div>
+                    <a href="">Saiba mais</a>
+                </div>
+                <div class="banner3">
+                    <div class="banner_tittle">Opening Hours</div>
+                    <div class="banner_time">
+                       
+                        Monday - Friday        
+                       
+                        <horario class="horario1">8:00 - 17:00</horario>
+
+                    </div>
+                    <div class="banner_times">
+                       
+                        Saturday              
+                       
+                        <horario class="horario2">9:30 - 17:30</horario>
+
+                    </div>
+                    <div class="banner_times">
+                       
+                        Sunday                
+                       
+                        <horario class="horario3">9:30 - 15:00</horario>
+                   
+                    </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="geral">
+        <div class="container">
+            <section>
+                <div class="widget">
+                    <div class="widget_tittle">
+                        <div class="widget_tittle_text">Últimas notícias</div>
+                        <div class="widget_tittle_bar"></div>
+                </div>
+                    <div class="widget_body flex">
+                        <article>
+                        <a href="">
+                            <div class="news_date">
+                                <div class="news_posted_at">12 JAN 01</div>
+                                <div class="news_comments">2</div>
+                            </div>
+                            <div clas="news_thumbnail">
+                                <img src="assets/Images/imagembody.png"/>
+                            </div>
+                            <div class="news_tittle">
+                                Lorem iposun about range out file what
+                            </div>
+                            <div class="news_text">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
+                                 nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </div>
+                        </a>
+                        </article>
+                        <article>
+                        <a href="">
+                            <div class="news_date">
+                                <div class="news_posted_at">12 JAN 01</div>
+                                <div class="news_comments">2</div>
+                            </div>
+                            <div clas="news_thumbnail">
+                                <img src="assets/Images/imagembody.png"/>
+                            </div>
+                            <div class="news_tittle">
+                                Lorem iposun about range out file what
+                            </div>
+                            <div class="news_text">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
+                                 nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </div>
+                        </a>
+                        </article>
+                        <article>
+                        <a href="">
+                            <div class="news_date">
+                                <div class="news_posted_at">12 JAN 01</div>
+                                <div class="news_comments">2</div>
+                            </div>
+                            <div clas="news_thumbnail">
+                                <img src="assets/Images/imagembody.png"/>
+                            </div>
+                            <div class="news_tittle">
+                                Lorem iposun about range out file what
+                            </div>
+                            <div class="news_text">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
+                                 nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </div>
+                        </a>
+                        </article>
+                        <article>
+                        <a href="">
+                            <div class="news_date">
+                                <div class="news_posted_at">12 JAN 01</div>
+                                <div class="news_comments">2</div>
+                            </div>
+                            <div clas="news_thumbnail">
+                                <img src="assets/Images/imagembody.png"/>
+                            </div>
+                            <div class="news_tittle">
+                                Lorem iposun about range out file what
+                            </div>
+                            <div class="news_text">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
+                                 nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </div>
+                        </a>
+                        </article>
+                    </div>
+                </div>
+            </section>
+            <aside>
+                <div class="widget">
+                    <div class="widget_tittle">
+                        <div class="widget_tittle_text">Departamentos</div>
+                        <div class="widget_tittle_bar"></div>
+                    </div>
+                    <div class="widget_body">
+                        <div class="widget_block">
+                            <div class="block1"></div>
+                            <div class="block"></div>
+                            <div class="block1"></div>
+                            <div class="block"></div>
+                            <div class="block1"></div>
+                            <div class="block"></div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="widget">
+                    <div class="widget_tittle">
+                    <div class="widget_tittle_text">Marque uma consulta</div>
+                        <div class="widget_tittle_bar"></div>
+                    </div>
+                    <div class="widget_body">
+                        <div class="text_contato">Em caso de pré-agendamento pré-consultas ou dúvidas, nos procurar em:</div>
+                        <div class="contato">Telefone: <strong>47 999478-1928</strong></div>
+                        <div class="contato">Email: <a href="">kiverdee42@gmail.com</a></div>
+                        <div class="contato_u">Ou preencha o <a href="">formulário</a></div>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container flexColumn">
+            <div class="footer_menu">
+                <div class="fm_1">
+                    <div class="fm_tittle">
+                        Seguro de Saúde
+                    </div>
+                    <div class="fm_text">
+                        Aqui na Kiverde temos atendimento individual ➝
+                    </div>
+                </div>
+                <div class="fm_2">
+                    <div class="fm_tittle">
+                        Registros Médicos
+                    </div>
+                    <div class="fm_text">
+                        Aqui na Kiverde temos atendimento individual ➝
+                    </div>
+                </div>
+                <div class="fm_3">
+                    <div class="fm_tittle">
+                        Pagamento On-line
+                    </div>
+                    <div class="fm_text">
+                        Aqui na Kiverde temos atendimento individual ➝
+                    </div>
+                </div>
+            </div>
+            <div class="footer_area">
+                <div class="footer_areaitem">
+                    <div class="widget">
+                        <div class="widget_tittle">
+                            <div class="widget_tittle_footer">Clínica médica</div>
+                            <div class="widget_tittle_bar"></div>
+                        </div>
+                        <div class="widget_body">
+                            <div class="areaitem_textclinical">
+                                It is a long established fact that a reader will be distracted 
+                                by the readable sat its layout.
+                            </div>
+                            <div class="areaitem_textclinical">Clínica Médica</div>
+                            </br>
+                            <div class="widgetbody_flex">
+                                <div class="areaitem_AAA">
+                                    33 Fariane Street</br>
+                                    Keilor East</br>
+                                    VIC, 2033 Australia
+                                </div>
+                                <div class="areaitem_BBB">
+                                    +242 435 996</br>
+                                    +399 209 103</br>
+                                    <a href="" class="areaitem_email">kiverde@gmail.com</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_areaitem">
+                    <div class="widget">
+                        <div class="widget_tittle">
+                            <div class="widget_tittle_footer">Últimas postagens</div>
+                            <div class="widget_tittle_bar"></div>
+                        </div>
+                        <div class="widget_body">
+                            <div class="areaitem_textposts">
+                                ➝ Contrary to popular belief, Lorem Ipsum is random text none one every.
+                                <div class="text_blue">4 days ago</div>
+                            </div>
+                            <div class="areaitem_textposts">
+                                ➝ Contrary to popular belief.
+                                <div class="text_blue">4 days ago</div>
+                            </div>
+                            <div class="areaitem_textposts">
+                                ➝ Contrary to popular belief, Lorem Ipsum is random text none one every.
+                                <div class="text_blue">4 days ago</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_areaitem">
+                    <div class="widget">
+                        <div class="widget_tittle">
+                            <div class="widget_tittle_footer">Últimos Tweets</div>
+                            <div class="widget_tittle_bar"></div>
+                        </div>
+                        <div class="widget_body">
+                            <div class="areaitem_texttweets">
+                                ➝ Contrary to popular belief, Lorem Ipsum is simply random text.
+                                It has roots in a piece of classical Latin literature from 45...
+                                <div class="text_blue">4 days ago</div>
+                            </div>
+                            <div class="areaitem_texttweets">
+                                ➝ Contrary to popular belief, Lorem Ipsum is simply random text.
+                                It has roots in a piece of classical Latin literature from 45...
+                                <div class="text_blue">4 days ago</div>
+                            </div>
+                            <div class="areaitem_texttweets">
+                                ➝ Contrary to popular belief, Lorem Ipsum is simply random text.
+                                It has roots in a piece of classical Latin literature from 45...
+                                <div class="text_blue">4 days ago</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_copy">
+                Copyright - todos os direitos reservados
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
