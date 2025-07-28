@@ -1,16 +1,12 @@
 <!DOCTYPE html>
 <html>
+<!--INÍCIO DO HEAD-->
 <head>
 
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width,user-scalable=0" />
-    
-    <link rel="stylesheet" type="text/css" href="assets/style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Questrial&display=swap" rel="stylesheet">
-    
-<script type="text/javascript">
+
+    <script type="text/javascript">
     document.addEventListener("DOMContentLoaded", function() {
     window.onload = function (){
         document.querySelector(".menuMobile").addEventListener("click", function(){
@@ -24,17 +20,24 @@
 });
     </script>
 
-<title>Site FLEXBOX</title> 
+    <title>Site FLEXBOX</title> 
 
+    <link rel="stylesheet" type="text/css" href="assets/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Questrial&display=swap" rel="stylesheet">
+    
 </head>
+<!--FIM DO HEAD-->
 
+<!--INÍCIO DO BODY-->
 <body>
-
+<!--INÍCIO DO HEADER-->
     <header>
         <div class="container" >
             <div class="logo">
                 
-                <a href=""><img class="img" src="assets/Images/logo1.png" /></a>
+                <a href=""><img class="img" src="assets/Images/logo1.png" alt="Logo"/></a>
             
             </div>
             <div class="menu">
@@ -47,17 +50,18 @@
                     <ul>
                         <li class="active"><a href="">HOME</a></li>
                         <li><a href="" class="active_text">Home</a></li>
-                        <li><a href="" class="active_text">Home</a></li>
-                        <li><a href="" class="active_text">Home</a></li>
-                        <li><a href="" class="active_text">Home</a></li>
-                        <li><a href="" class="active_text">Home</a></li>
+                        <li><a href="" class="active_text">Serviços</a></li>
+                        <li><a href="" class="active_text">Contato</a></li>
+                        <li><a href="" class="active_text">Agendamento</a></li>
+                        <li><a href="" class="active_text">Sobre</a></li>
                     </ul>
                 </nav>
             </div>
            
         </div>
     </header>
-
+<!--FIM DO HEADER-->
+<!--INÍCIO DO BANNER-->   
     <section id="banner">
         <div class="container column">
             <div class="banner_headline">
@@ -68,13 +72,13 @@
                 <div class="banner1">
                     <div class="banner_tittle">Como começar</div>
                     <div class="banner_desc">Inclua mais alimentos naturais e evite os ultraprocessados.
-Comece com pequenas mudanças e mantenha constância.</div>
+                    Comece com pequenas mudanças e mantenha constância.</div>
                     <a href="">Saiba mais</a>
                 </div>
                 <div class="banner2">
                     <div class="banner_tittle">Resultados</div>
                     <div class="banner_desc">Uma boa alimentação melhora a disposição, o humor e fortalece o sistema imunológico.
-Com o tempo, ajuda a prevenir doenças e promove bem-estar geral.</div>
+                    Com o tempo, ajuda a prevenir doenças e promove bem-estar geral.</div>
                     <a href="">Saiba mais</a>
                 </div>
                 <div class="banner3">
@@ -83,28 +87,29 @@ Com o tempo, ajuda a prevenir doenças e promove bem-estar geral.</div>
                        
                         Monday - Friday        
                        
-                        <horario class="horario1">8:00 - 17:00</horario>
+                        <span class="horario1">8:00 - 17:00</span>
 
                     </div>
                     <div class="banner_times">
                        
                         Saturday              
                        
-                        <horario class="horario2">9:30 - 17:30</horario>
+                        <span class="horario2">9:30 - 17:30</span>
 
                     </div>
                     <div class="banner_times">
                        
                         Sunday                
                        
-                        <horario class="horario3">9:30 - 15:00</horario>
-                   
+                        <span class="horario3">9:30 - 15:00</span>
+
                     </div>
             </div>
         </div>
 
     </section>
-
+<!--FIM BANNER-->
+<!--INÍCIO WIDGET-->
     <section id="geral">
         <div class="container">
             <section>
@@ -121,7 +126,26 @@ Com o tempo, ajuda a prevenir doenças e promove bem-estar geral.</div>
                                 <div class="news_comments">2</div>
                             </div>
                             <div class="news_thumbnail">
-                                <img src="assets/Images/imagembody.png"/>
+                                <img src="assets/Images/imagembody.png" alt="Imagem corpo"/>
+                            </div>
+                            <div class="news_tittle">
+                                Lorem iposun about range out file what
+                            </div>
+                            <div class="news_text">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
+                                 nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </div>
+                        </a>
+                        </article>
+                        <article>
+                        <a href="">
+                            <div class="news_date">
+                                <div class="news_posted_at">12 JAN 01</div>
+                                <div class="news_comments">2</div>
+                            </div>
+                            <div class="news_thumbnail">
+                                <img src="assets/Images/imagembody.png" alt="Imagem corpo"/>
                             </div>
                             <div class="news_tittle">
                                 Lorem iposun about range out file what
@@ -140,7 +164,7 @@ Com o tempo, ajuda a prevenir doenças e promove bem-estar geral.</div>
                                 <div class="news_comments">2</div>
                             </div>
                             <div clas="news_thumbnail">
-                                <img src="assets/Images/imagembody.png"/>
+                                <img src="assets/Images/imagembody.png" alt="Imagem corpo"/>
                             </div>
                             <div class="news_tittle">
                                 Lorem iposun about range out file what
@@ -159,26 +183,7 @@ Com o tempo, ajuda a prevenir doenças e promove bem-estar geral.</div>
                                 <div class="news_comments">2</div>
                             </div>
                             <div clas="news_thumbnail">
-                                <img src="assets/Images/imagembody.png"/>
-                            </div>
-                            <div class="news_tittle">
-                                Lorem iposun about range out file what
-                            </div>
-                            <div class="news_text">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
-                                 nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                            </div>
-                        </a>
-                        </article>
-                        <article>
-                        <a href="">
-                            <div class="news_date">
-                                <div class="news_posted_at">12 JAN 01</div>
-                                <div class="news_comments">2</div>
-                            </div>
-                            <div clas="news_thumbnail">
-                                <img src="assets/Images/imagembody.png"/>
+                                <img src="assets/Images/imagembody.png" alt="Imagem corpo"/>
                             </div>
                             <div class="news_tittle">
                                 Lorem iposun about range out file what
@@ -226,7 +231,8 @@ Com o tempo, ajuda a prevenir doenças e promove bem-estar geral.</div>
             </aside>
         </div>
     </section>
-
+<!--FIM WIDGET-->
+<!--INÍCIO FOOTER-->
     <footer>
         <div class="container flexColumn">
             <div class="footer_menu">
@@ -337,6 +343,7 @@ Com o tempo, ajuda a prevenir doenças e promove bem-estar geral.</div>
             </div>
         </div>
     </footer>
+<!--FIM DO FOOTER-->
 </body>
-
+<!--FIM DO BODY-->
 </html>
